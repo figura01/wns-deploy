@@ -2,7 +2,7 @@ name: build and push client image
 on: 
   push:
     branches:
-      [stadging]
+      [staging]
 jobs:
   docker:
         runs-on: ubuntu-latest
