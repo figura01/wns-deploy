@@ -1,4 +1,4 @@
-name: build and push client image
+name: build and push server image
 on: 
   push:
     branches:
@@ -21,5 +21,5 @@ jobs:
             uses: docker/build-push-action@v4
             with:
               push: true
-              context: "{{defaultContext}}:backend"
+              context: "{{defaultContext}}:server"
               tags: ${{ secrets.DOCKERHUB_USERNAME }}/wsn-deploy-backend-staging
