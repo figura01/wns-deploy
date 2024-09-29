@@ -2,7 +2,8 @@ name: build and push client image
 on: 
   push:
     branches:
-      [staging]
+      ["staging"]
+  workflow_dispatch:
 jobs:
   docker:
         runs-on: ubuntu-latest
