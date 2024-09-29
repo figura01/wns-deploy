@@ -1,0 +1,6 @@
+2024/09/28 20:20:00 [error] 31#31: *2 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.21.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8000"
+2024/09/28 20:20:20 [error] 31#31: *3 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.21.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8000"
+2024/09/28 20:30:35 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "POST /graphql HTTP/1.1", upstream: "http://172.21.0.4:5000/graphql", host: "localhost:9000", referrer: "http://localhost:9000/"
+2024/09/28 20:30:43 [error] 31#31: *7 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.21.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:9000"
+2024/09/28 20:30:45 [error] 31#31: *6 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.21.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:9000"
+2024/09/29 12:27:32 [error] 30#30: *2 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.21.0.1, server: , request: "GET /grapgql HTTP/1.1", host: "localhost:8000"
