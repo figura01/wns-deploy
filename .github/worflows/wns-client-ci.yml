@@ -2,7 +2,7 @@ name: build and push client image
 on: 
   push:
     branches:
-      [stadging]
+      [staging]
 jobs:
   docker:
         runs-on: ubuntu-latest
@@ -21,4 +21,4 @@ jobs:
             with:
               push: true
               context: "{{defaultContext}}:client"
-              tags: ${{ secrets.DOCKERHUB_USERNAME }}/wsn-deploy-client
+              tags: ${{ secrets.DOCKERHUB_USERNAME }}/wsn-deploy-client-staging

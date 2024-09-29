@@ -21,4 +21,4 @@ jobs:
             with:
               push: true
               context: "{{defaultContext}}:backend"
-              tags: ${{ secrets.DOCKERHUB_USERNAME }}/wsn-deploy-backend
+              tags: ${{ secrets.DOCKERHUB_USERNAME }}/wsn-deploy-backend-staging
