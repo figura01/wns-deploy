@@ -3,7 +3,8 @@ version: '3'
 services:
   server:
     # build: ./server
-    image: figuradocker/wns-deploy-server-staging:latest
+    platform: linux/x86_64
+    image: figuradocker/wsn-deploy-backend-staging
     command: sh -c "npm run build && npm run prod"
     expose:
       - 5000
@@ -14,7 +15,8 @@ services:
       - mongodb
   client:
     # build: ./client
-    image: figuradocker/wns-deploy-client-staging:latest
+    platform: linux/x86_64
+    image: figuradocker/wsn-deploy-client-staging
     command: sh -c "npm run build"
     volumes:
       - web-client-build:/app/build

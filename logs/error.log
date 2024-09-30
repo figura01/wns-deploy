@@ -8080,3 +8080,32 @@
 2024/05/14 12:03:59 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
 2024/05/14 12:05:00 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
 2024/05/14 12:06:00 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2024/09/30 23:26:16 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2024/09/30 23:26:17 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2024/09/30 23:26:17 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2024/09/30 23:26:18 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2024/09/30 23:26:19 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2024/09/30 23:26:21 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2024/09/30 23:26:25 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2024/09/30 23:26:31 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2024/09/30 23:26:44 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2024/09/30 23:27:10 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2024/09/30 23:28:02 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2024/09/30 23:29:03 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2024/09/30 23:30:03 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2024/09/30 23:31:06 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2024/09/30 23:32:41 [error] 30#30: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.21.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8000"
+2024/09/30 23:34:37 [error] 32#32: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.21.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8100"
+2024/09/30 23:36:23 [error] 31#31: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.21.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8200"
+2024/09/30 23:36:30 [error] 31#31: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "POST /graphql HTTP/1.1", upstream: "http://172.21.0.3:5000/graphql", host: "localhost:8200", referrer: "http://localhost:8200/"
+2024/09/30 23:36:31 [error] 31#31: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "POST /graphql HTTP/1.1", upstream: "http://172.21.0.3:5000/graphql", host: "localhost:8200", referrer: "http://localhost:8200/"
+2024/09/30 23:36:32 [error] 31#31: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "POST /graphql HTTP/1.1", upstream: "http://172.21.0.3:5000/graphql", host: "localhost:8200", referrer: "http://localhost:8200/"
+2024/09/30 23:36:39 [error] 31#31: *15 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "POST /graphql HTTP/1.1", upstream: "http://172.21.0.3:5000/graphql", host: "localhost:8200", referrer: "http://localhost:8200/"
+2024/09/30 23:36:39 [error] 31#31: *15 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "POST /graphql HTTP/1.1", upstream: "http://172.21.0.3:5000/graphql", host: "localhost:8200", referrer: "http://localhost:8200/"
+2024/09/30 23:36:41 [error] 31#31: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "POST /graphql HTTP/1.1", upstream: "http://172.21.0.3:5000/graphql", host: "localhost:8200", referrer: "http://localhost:8200/"
+2024/09/30 23:36:42 [error] 31#31: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "POST /graphql HTTP/1.1", upstream: "http://172.21.0.3:5000/graphql", host: "localhost:8200", referrer: "http://localhost:8200/"
+2024/09/30 23:36:42 [error] 31#31: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "POST /graphql HTTP/1.1", upstream: "http://172.21.0.3:5000/graphql", host: "localhost:8200", referrer: "http://localhost:8200/"
+2024/09/30 23:36:43 [error] 31#31: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "POST /graphql HTTP/1.1", upstream: "http://172.21.0.3:5000/graphql", host: "localhost:8200", referrer: "http://localhost:8200/"
+2024/09/30 23:36:43 [error] 31#31: *24 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "POST /graphql HTTP/1.1", upstream: "http://172.21.0.3:5000/graphql", host: "localhost:8200", referrer: "http://localhost:8200/"
+2024/09/30 23:36:44 [error] 31#31: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "POST /graphql HTTP/1.1", upstream: "http://172.21.0.3:5000/graphql", host: "localhost:8200", referrer: "http://localhost:8200/"
+2024/09/30 23:36:53 [error] 31#31: *31 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "POST /graphql HTTP/1.1", upstream: "http://172.21.0.3:5000/graphql", host: "localhost:8200", referrer: "http://localhost:8200/"
