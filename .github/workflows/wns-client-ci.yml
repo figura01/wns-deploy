@@ -22,4 +22,4 @@ jobs:
             with:
               push: true
               context: "{{defaultContext}}:client"
-              tags: ${{ secrets.DOCKERHUB_USERNAME }}/wsn-deploy-client-staging
+              tags: ${{ secrets.DOCKERHUB_USERNAME }}/wsn-deploy-client-staging:latest
